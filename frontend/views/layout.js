@@ -12,10 +12,9 @@ function layout() {
   } else if (location === "/admin") {
     pageDisplay = admin();
   } else if (location === "/teacher") {
-    pageDisplay = teacher(); 
-  }
-    else if(location === "/auth") {
-      pageDisplay = auth();
+    pageDisplay = teacher();
+  } else if (location === "/auth") {
+    pageDisplay = auth();
   } else {
     pageDisplay = `<h1>Error></h1>`;
   }
@@ -23,11 +22,8 @@ function layout() {
 ${navbar()}
 <div>
 ${pageDisplay}
-
 </div>
-
-
-    </div>`;
+</div>`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {

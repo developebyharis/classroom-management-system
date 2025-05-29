@@ -11,7 +11,7 @@
   },
   "name": "classroom-booking-system",
   "version": "1.0.0",
-  "description": "A ",
+  "description": "A classroom booking system for a university, allowing students to book classrooms for study sessions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

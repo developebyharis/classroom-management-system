@@ -1,4 +1,4 @@
-export default function () {
+export default function authForm() {
   return ` <div class="w-full max-w-sm p-4 space-y-6 bg-white rounded-xl shadow-lg border border-gray-200">
         <h2 class="text-3xl font-bold text-center text-gray-900">Login</h2>
         <form class="space-y-6" action="/login" method="POST">

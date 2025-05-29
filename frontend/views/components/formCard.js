@@ -5,7 +5,6 @@ export default function formCard() {
     <div class="max-w-md mx-auto mt-10 bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
       <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">User Form</h2>
       <form>
-      tagName,name,type, style,
         ${input({
           tagName: "email",
           name: "Email",
